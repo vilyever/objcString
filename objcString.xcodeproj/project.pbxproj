@@ -22,6 +22,8 @@
 		FE64051E1D5470E000652BAC /* NSString+Change.m in Sources */ = {isa = PBXBuildFile; fileRef = FE64051C1D5470E000652BAC /* NSString+Change.m */; };
 		FE6405211D54710200652BAC /* NSString+VDRegex.h in Headers */ = {isa = PBXBuildFile; fileRef = FE64051F1D54710200652BAC /* NSString+VDRegex.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FE6405221D54710200652BAC /* NSString+VDRegex.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6405201D54710200652BAC /* NSString+VDRegex.m */; };
+		FEE88FA11D63F56D00C73B9E /* NSString+VDUrl.h in Headers */ = {isa = PBXBuildFile; fileRef = FEE88F9F1D63F56D00C73B9E /* NSString+VDUrl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEE88FA21D63F56D00C73B9E /* NSString+VDUrl.m in Sources */ = {isa = PBXBuildFile; fileRef = FEE88FA01D63F56D00C73B9E /* NSString+VDUrl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,8 @@
 		FE64051C1D5470E000652BAC /* NSString+Change.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Change.m"; sourceTree = "<group>"; };
 		FE64051F1D54710200652BAC /* NSString+VDRegex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+VDRegex.h"; sourceTree = "<group>"; };
 		FE6405201D54710200652BAC /* NSString+VDRegex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+VDRegex.m"; sourceTree = "<group>"; };
+		FEE88F9F1D63F56D00C73B9E /* NSString+VDUrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+VDUrl.h"; sourceTree = "<group>"; };
+		FEE88FA01D63F56D00C73B9E /* NSString+VDUrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+VDUrl.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +115,8 @@
 				FE64051C1D5470E000652BAC /* NSString+Change.m */,
 				FE64051F1D54710200652BAC /* NSString+VDRegex.h */,
 				FE6405201D54710200652BAC /* NSString+VDRegex.m */,
+				FEE88F9F1D63F56D00C73B9E /* NSString+VDUrl.h */,
+				FEE88FA01D63F56D00C73B9E /* NSString+VDUrl.m */,
 			);
 			path = objcString;
 			sourceTree = "<group>";
@@ -135,6 +141,7 @@
 				FE6405111D546F8200652BAC /* NSString+VDDate.h in Headers */,
 				FE6405211D54710200652BAC /* NSString+VDRegex.h in Headers */,
 				FE64051D1D5470E000652BAC /* NSString+Change.h in Headers */,
+				FEE88FA11D63F56D00C73B9E /* NSString+VDUrl.h in Headers */,
 				FE6405151D54700C00652BAC /* NSString+VDValue.h in Headers */,
 				FE6404F31D546F4600652BAC /* objcString.h in Headers */,
 			);
@@ -245,6 +252,7 @@
 				FE6405221D54710200652BAC /* NSString+VDRegex.m in Sources */,
 				FE6405121D546F8200652BAC /* NSString+VDDate.m in Sources */,
 				FE6405161D54700C00652BAC /* NSString+VDValue.m in Sources */,
+				FEE88FA21D63F56D00C73B9E /* NSString+VDUrl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +436,7 @@
 				FE6405051D546F4600652BAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FE6405061D546F4600652BAC /* Build configuration list for PBXNativeTarget "objcStringTests" */ = {
 			isa = XCConfigurationList;
@@ -436,6 +445,7 @@
 				FE6405081D546F4600652BAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

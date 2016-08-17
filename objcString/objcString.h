@@ -21,6 +21,7 @@ FOUNDATION_EXPORT const unsigned char objcStringVersionString[];
 #import <objcString/NSString+VDEmpty.h>
 #import <objcString/NSString+Change.h>
 #import <objcString/NSString+VDRegex.h>
+#import <objcString/NSString+VDUrl.h>
 
 
 #pragma mark VDKeyPath
